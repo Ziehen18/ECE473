@@ -30,9 +30,6 @@ module register_file(
 		registers[i] = i;
 	end
 	
-	registers[1] = -30;
-	registers[2] = 56;
-	
 	end
 	
 	always @(negedge clock_debug) begin
